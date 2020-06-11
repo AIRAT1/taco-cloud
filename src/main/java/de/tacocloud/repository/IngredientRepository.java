@@ -1,6 +1,6 @@
 package de.tacocloud.repository;
 
-import de.tacocloud.data.Ingredient;
+import de.tacocloud.domain.Ingredient;
 
 public interface IngredientRepository {
     Iterable<Ingredient> findAll();

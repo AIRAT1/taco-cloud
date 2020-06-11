@@ -1,4 +1,4 @@
-package de.tacocloud.data;
+package de.tacocloud.domain;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
