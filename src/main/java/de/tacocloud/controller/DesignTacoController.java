@@ -68,8 +68,6 @@ public class DesignTacoController {
         if (errors.hasErrors()) {
             return "design";
         }
-
-        // Save the taco design...
         log.info("Processing design: " + design);
 
         return "redirect:/orders/current";
